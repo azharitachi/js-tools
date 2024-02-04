@@ -1,0 +1,32 @@
+{
+  "name": "rule-matcher",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Azhar Mehmood <azhar.mehmood@tenovos.com>",
+  "homepage": "https://github.com/azharitachi/js-tools#readme",
+  "license": "ISC",
+  "main": "lib/rule-matcher.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azharitachi/js-tools.git"
+  },
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node dist/rule-matcher.js",
+    "test": "node ./__tests__/rule-matcher.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/azharitachi/js-tools/issues"
+  },
+  "dependencies": {
+    "@okuryu/grok-js": "^4.0.0-alpha.0",
+    "lodash": "^4.17.21"
+  }
+}
